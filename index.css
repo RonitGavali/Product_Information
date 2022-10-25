@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    color: black;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("watch.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+nav ul  li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    margin-right: 13px;
+}
+
+nav div a:hover{
+    color: orangered;
+    
+}
+
+nav h2{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.text{
+    margin-top: 20%;
+    
+}
+.text h1{
+    font-size: 70px;
+    
+    
+}
+
+#about{
+    padding: 80px 0;
+    color: #ababab;
+    margin-top: 30px; 
+}
+
+.about-1{
+    flex-basis: 35%;
+}
+.about-1 img{
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav .fas{
+    display: none;
+
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+}
+.tab-name{
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    color: black;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+
+}
+
+.tab-contents ul li span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tab-contents ul h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    padding: 10px;
+}
+/* aboiut 2,3,4,5*/
+.about-2{
+    flex-basis: 35%;
+}
+.about-2 img{
+    width: 100%;
+    border-radius: 15px;
+    height: 60%;
+    
+}
+.about-3{
+    flex-basis: 35%;
+}
+.about-3 img{
+    width: 100%;
+    border-radius: 15px;
+    height: 60%;
+}
+.about-4{
+    flex-basis: 35%;
+}
+.about-4 img{
+    width: 100%;
+    border-radius: 15px;
+    height: 60%;
+}
+.about-5{
+    flex-basis: 35%;
+}
+.about-5 img{
+    width: 100%;
+    border-radius: 15px;
+    height: 60%;
+}
+
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:-300px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:-300px;
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:-300px;
+}
+
+.social-icons a i{
+    color: black;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.btn2{
+    display: inline;
+    background: orange;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input ,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background:#262626;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn3{
+    display: inline;
+    background: #262626;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 140px;
+    margin-top: 35px;
+    cursor: pointer;
+
+}
+.contact-left p i{
+    color: black;
+    margin-right: 15px;
+    font-size: 20px;
+}
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width:600px){
+    .about-1 img{
+        width: 350px;
+        border-radius: 15px;
+        height: 100%;
+        
+    }   
+    #about{
+        padding: 10px 0;
+        color: #ababab;
+        margin-top: 30px; 
+    } 
+    .about-2 img{
+        width: 350px;
+        border-radius: 15px;
+        height: 70%;
+        
+    } 
+    .about-3 img{
+        width: 350px;
+        border-radius: 15px;
+        height: 50%;
+        margin-top: 250px;
+        
+    } 
+    .about-4 img{
+        width: 350px;
+        border-radius: 15px;
+        height: 50%;
+        margin-top: 280px;
+        
+    } 
+    .about-5 img{
+        width: 350px;
+        border-radius: 15px;
+        height: 50%;
+        margin-top: 280px;
+        
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: grey;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+        transition: right 0.5s;
+    }
+    
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    
+    }
+    
+    
+    footer{
+        font-size: 14px;
+    }
+    #main{
+        width: 100%;
+        height: 100vh;
+        background-image: url("watch_mobile.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        background-repeat:no-repeat ;
+
+    }
+    .text h1{
+        font-size: 40px;
+        color: black;
+        
+        
+    }
+    
+    
+    
+    
+}
